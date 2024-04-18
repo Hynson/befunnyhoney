@@ -1,0 +1,977 @@
+{
+    "Title": "BE FUNNY, HONEY!",
+    "Credits": "Created by Elijah Hynson (ehynson@ucsc.edu).",
+    "InitialLocation": "Bed",
+    "Locations": {
+        "Bed": {
+            "Body": "You open your eyes to start another day of running one of the largest gaming companies in the world. Despite your bed being made from nice materials skinned from the most endangered animals, you still get that crick in your neck. Your thoughts of filing a complaint to the pelter is immediately interrupted by a phone call. You don't recognize the Caller ID",
+            "Choices": [
+                {
+                    "Text": "Answer the call",
+                    "Target": "Intro1"
+                }
+            ]
+        },
+        "Intro1": {
+            "Body": "The unknown caller announces themselves. 'GOOD MOOOOOORRRRRNIIIIINNNNNGGGG! I do hope you had a good night sleep :)'",
+            "Choices": [
+                {
+                    "Text": "Who the hell is this?",
+                    "Target": "Intro2"
+                }
+            ]
+        },
+        "Intro2": {
+            "Body": "'Your fan club. Anyways, we hope you had your full 8 hours because you've been chosen for our nationwide quiz.'",
+            "Choices": [
+                {
+                    "Text": "Nationwide quiz?",
+                    "Target": "Intro3"
+                }
+            ]
+        },
+        "Intro3": {
+            "Body": "'YES! A QUIZ! Just a fun lil quiz that our fan club made for you as well as every other CEO lucky enough to get this golden ticket of an opportunity!'",
+            "Choices": [
+                {
+                    "Text": "Something tells me I can't turn down this golden ticket...",
+                    "Target": "Intro4"
+                }
+            ]
+        },
+        "Intro4": {
+            "Body": "'Very wise of you. Seeing as your billions of your dollars are on the line.'",
+            "Choices": [
+                {
+                    "Text": "My money!? Who the hell do you think you are?",
+                    "Target": "Intro5"
+                }
+            ]
+        },
+
+        "Intro5": {
+            "Body": "'Ahhh, now we got the greedy pig's attention! Yes, we have your assets under hostage. If you want to continue to live in that overcompensating home of yours, then you must play our game. Think of this as karma, for all the people you screwed over with your pitiful excuses for games'",
+            "Choices": [
+                {
+                    "Text": "Ok, ok, I'll play your damn game.",
+                    "Target": "Intro6"
+                }
+            ]
+        },
+
+        "Intro6": {
+            "Body": "'WONDERFUL! We got the game set up on your desktop! DON'T KEEP US WAITING :)!' The unknown caller hangs up the phone. You know you'll need some backup on this situation, but there might not be enough time to call them and they might have your smartphone tapped.'",
+            "Choices": [
+                {
+                    "Text": "Go to your desktop and start the game.",
+                    "Target": "LoneQuizIntro"
+                },
+                {
+                    "Text": "Risk pissing off the hackers.",
+                    "Target": "Phonechoice"
+                }
+            ]
+        },
+        
+        "Phonechoice": {
+            "Body": "With the smartphone in your hand, you might have enough time to call someone but it could be tapped. You could also try the landline, but thats in the downstairs kitchen.",
+            "Choices": [ 
+            {
+                    "Text": "Use smartphone",
+                    "Target": "Call"
+                },
+                {
+                    "Text": "Go downstairs",
+                    "Target": "Downstairs"
+                }
+            ]
+        },
+
+        "Downstairs": {
+            "Body": "You only made 4 steps until your smartphone chirped again. 'THE HELL YOU THINK YOU GOING!? GET BACK TO THE DESKTOP!'",
+            "Choices": [ 
+            {
+                    "Text": "Go back and start the game",
+                    "Target": "LoneQuizIntro"
+                }
+            ]
+        },
+        
+        "Call": {
+            "Body": "You take the risk and call your friend. Luckily they are skilled enough to cover your quick conversation. You now have someone who can help you during the quiz."
+        },
+
+        "LoneQuizIntro": {
+            "Body": "You sit down at your desktop and start up the program. Your eyes are almost blinded by the cacophany of black and yellow patterns comprised of wide grinning smiley faces. The rulesheet appears after a short moment.",
+            "Choices": [ 
+            {
+                    "Text": "Read the rulesheet",
+                    "Target": "LoneRulesheet"
+                }
+            ]
+        },
+
+        "LoneRulesheet": {
+            "Body": "WELCOME! WELCOME! WELCOOOOMMMMEEE to this lovely quiz you have been luckily chosen to play! If you are here, then that means that certain individuals are worried that you might not care for the common people or rather you care more about the money in their wallets! This quiz is merely a check up on if you are in touch with the communities that you 'serve'.",
+            "Choices": [
+                {
+                    "Text": "Continue reading...",
+                    "Target": "LoneRulesheet2"
+                }
+            ]
+        },
+        "LoneRulesheet2": {
+            "Body": "In terms of rules, we don't ask for much. Answer the questions correctly and DON'T FAIL A SINGLE ONE! You must prove that you are FULLY connected to the people, so that you can continue to have the privilege of being a leader.",
+            "Choices": [
+                {
+                    "Text": "Continue reading...",
+                    "Target": "LoneRulesheet3"
+                }
+            ]
+        },
+        "LoneRulesheet3": {
+            "Body": "And most importantly...DON'T BE A PUNK ASS CHEATER! WE WILL KNOW! WE ARE WATCHING YOU! Now go ahead and start the game. Good luck! :)",
+            "Choices": [
+                {
+                    "Text": "Go to the first question",
+                    "Target": "LoneQuestion1"
+                }
+            ]
+        },
+
+        "LoneQuestion1": {
+            "Body": "Question 1: What time is it?",
+            "Choices": [
+                {
+                    "Text": "A: The current time",
+                    "Target": "LoneIncorrect"
+                },
+                {
+                    "Text": "B: Twelve in the Morning",
+                    "Target": "LoneIncorrect"
+                },
+                {
+                    "Text": "C: 6:00 PM",
+                    "Target": "LoneIncorrect"
+                },
+                {
+                    "Text": "D: Peanut Butter Jelly Time",
+                    "Target": "LoneQ1Correct"
+                }
+            ]
+        },
+
+        "LoneQ1Correct": {
+            "Body": "CORRECT! There's always time for a good ol' PB&J. Get ready for the next question!",
+            "Choices": [
+                {
+                    "Text": "To the next question..",
+                    "Target": "LoneQuestion2"
+                }
+            ]
+
+        },
+
+        "LoneIncorrect": {
+            "Body": "SORRY PAL, INCORRECT! ENJOY SLEEPING ON THE STREETS!!!!"
+        },
+
+        "LoneQuestion2": {
+            "Body": "Question 2: What's 9 + 10?",
+            "Choices": [
+                {
+                    "Text": "A: 19",
+                    "Target": "LoneIncorrect"
+                },
+                {
+                    "Text": "B: 30",
+                    "Target": "LoneIncorrect"
+                },
+                {
+                    "Text": "C: 21",
+                    "Target": "LoneQ2Correct"
+                },
+                {
+                    "Text": "D: 25",
+                    "Target": "LoneIncorrect"
+                }
+            ]
+        },
+
+        
+        "LoneQ2Correct": {
+            "Body": "CORRECT! Boy was that kid stupid!",
+            "Choices": [
+                {
+                    "Text": "To the next question..",
+                    "Target": "LoneQuestion3"
+                }
+            ]
+
+        },
+
+        
+        "LoneQuestion3": {
+            "Body": "Question 3: How much of your base belongs to them?",
+            "Choices": [
+                {
+                    "Text": "A: A small amount",
+                    "Target": "LoneIncorrect"
+                },
+                {
+                    "Text": "B: A moderate piece",
+                    "Target": "LoneIncorrect"
+                },
+                {
+                    "Text": "C: All",
+                    "Target": "LoneQ3Correct"
+                },
+                {
+                    "Text": "D: A good portion",
+                    "Target": "LoneIncorrect"
+                }
+            ]
+        },
+
+        "LoneQ3Correct": {
+            "Body": "CORRECT! It's either all of the pie or throw it out the window!",
+            "Choices": [
+                {
+                    "Text": "To the next question..",
+                    "Target": "LoneQuestion4"
+                }
+            ]
+
+        },
+
+        "LoneQuestion4": {
+            "Body": "Question 4: Which one of these dessert items is the most deceiving",
+            "Choices": [
+                {
+                    "Text": "A: Devil's Food Cake",
+                    "Target": "LoneIncorrect"
+                },
+                {
+                    "Text": "B: Pumpkin Pie",
+                    "Target": "LoneIncorrect"
+                },
+                {
+                    "Text": "C: Glazed Donuts",
+                    "Target": "LoneIncorrect"
+                },
+                {
+                    "Text": "D: Black Forest Cake",
+                    "Target": "LoneQ4Correct"
+                }
+
+            ]
+        },
+
+        "LoneQ4Correct": {
+            "Body": "CORRECT! Black Forests have skinwalkers that are known to be amazing liars. Don't trust the cake, it could be one of em!",
+            "Choices": [
+                {
+                    "Text": "To the next question..",
+                    "Target": "LoneQuestion5"
+                }
+            ]
+
+        },
+
+        "LoneQuestion5": {
+            "Body": "Question 5: Who is this man? (Picture of Channing Tatum)",
+            "Choices": [
+                {
+                    "Text": "A: Caine",
+                    "Target": "LoneIncorrect"
+                },
+                {
+                    "Text": "B: Jeff",
+                    "Target": "LoneQ5Correct"
+                },
+                {
+                    "Text": "C: Conrad S. 'Duke' Hauser ",
+                    "Target": "LoneIncorrect"
+                },
+                {
+                    "Text": "D: Magic Mike",
+                    "Target": "LoneIncorrect"
+                }
+            ]
+        },
+
+        "LoneQ5Correct": {
+            "Body": "CORRECT! His name is Jeff!",
+            "Choices": [
+                {
+                    "Text": "To the next question..",
+                    "Target": "LoneQuestion6"
+                }
+            ]
+
+        },
+
+        "LoneQuestion6": {
+            "Body": "Question 6: Finish the word: snoo______usualisee",
+            "Choices": [
+                {
+                    "Text": "A: ringas",
+                    "Target": "LoneIncorrect"
+                },
+                {
+                    "Text": "B: pingas",
+                    "Target": "LoneQ6Correct"
+                },
+                {
+                    "Text": "C: dingas",
+                    "Target": "LoneIncorrect"
+                },
+                {
+                    "Text": "D: chingas",
+                    "Target": "LoneIncorrect"
+                }
+            ]
+        },
+
+        "LoneQ6Correct": {
+            "Body": "CORRECT! Pingas is a way of life not fit for all but some...and boy does it fit in them ( ͡° ͜ʖ ͡°)",
+            "Choices": [
+                {
+                    "Text": "To the next question..",
+                    "Target": "LoneQuestion7"
+                }
+            ]
+
+        },
+
+        "LoneQuestion7": {
+            "Body": "Final Question: What was Big Smoke's Order?",
+            "Choices": [
+                {
+                    "Text": "A: Two #7s, a #45 Large, a #6 w/ Extra Dip, a #9, two #55s, one with mayo and a large milkshake",
+                    "Target": "LoneIncorrect"
+                },
+                {
+                    "Text": "B: Two #9s, a #9 Large, a #6 w/ Extra Dip, a #7, two #45s, one with cheese and a large soda",
+                    "Target": "LoneQ7Correct"
+                },
+                {
+                    "Text": "C: Two #9s, a #9 Large, a #6 w/ Extra Dip, a #7, two #45s, and a large soda",
+                    "Target": "LoneIncorrect"
+                },
+                {
+                    "Text": "D: Two #9s, a #9 Large, a #6 w/ Extra Dip, a #7, two #45s, one with cheese and a McFlurry",
+                    "Target": "LoneIncorrect"
+                }
+            ]
+        },
+
+        
+        "LoneQ7Correct": {
+            "Body": "CORRECT! If you can eat your food, while everyone else is losing theirs and blaming you, you straight, homie!",
+            "Choices": [
+                {
+                    "Text": "YOU WIN!",
+                    "Target": "LoneEpilogue"
+                }
+            ]
+
+        },
+
+        "LoneEpilogue": {
+            "Body": "The phone rings and you answer. 'WOW! You actually made it! Not bad, not bad. Welp, as promised you'll get your money back real soon. Not immediately though as we froze your assets pretty good, so it'll need some time to thaw. You will get it back though, pinky promise :)'",
+            "Choices": [
+                {
+                    "Text": "I know a liar when I hear one, give me back my money NOW!",
+                    "Target": "LoneEpilogue2"
+                }
+            ]
+
+        },
+
+        "LoneEpilogue2": {
+            "Body": "'Hey, hey, calm down man! We're being serious here. Just give us a few business days and we'll have your assets thawed out like boneless chicken thighs.'",
+            "Choices": [
+                {
+                    "Text": "Grrr. Alright then. You have 2 days.",
+                    "Target": "LoneEpilogue3"
+                }
+            ]
+
+        },
+
+        "LoneEpilogue3": {
+            "Body": "'No problemo, jefe!' The hackers hang up.",
+            "Choices": [
+                {
+                    "Text": "2 days later.",
+                    "Target": "SurvivedEnding"
+                }
+            ]
+
+        },
+
+        "SurvivedEnding": {
+            "Body": "After having to deal with 48 hours of crisis management, the hackers give you back your assets. This ultimately didn't matter however, as the sheer chaos of having to run a company with absolutely no money did plenty of damage. Your investors backed out due to a lack of faith in your security, and countless of your best developers left due to wanting to put food on the table. While you may have won the quiz, the hackers won the war."     
+        }
+    },
+
+
+
+"SecondInitialLocation": "DuoQuizIntro",
+"SecondLocations": {
+        "DuoQuizIntro": {
+            "Body": "You place your phone by your right side and connect it to your desktop as you sit down. Starting the program introduces you to a cacophany of black and yellow patterns comprised of wide grinning smiley faces. The rulesheet appears after a short moment.",
+            "Choices": [
+                {
+                    "Text": "Read the rulesheet",
+                    "Target": "DuoRulesheet"
+                }
+            ]
+        },
+        "DuoRulesheet": {
+            "Body": "WELCOME! WELCOME! WELCOOOOMMMMEEE to this lovely quiz you have been luckily chosen to play! If you are here, then that means that certain individuals are worried that you might not care for the common people or rather you care more about the money in their wallets! This quiz is merely a check up on if you are in touch with the communities that you 'serve'.",
+            "Choices": [
+                {
+                    "Text": "Continue reading...",
+                    "Target": "DuoRulesheet2"
+                }
+            ]
+        },
+        "DuoRulesheet2": {
+            "Body": "In terms of rules, we don't ask for much. Answer the questions correctly and DON'T FAIL A SINGLE ONE! You must prove that you are FULLY connected to the people, so that you can continue to have the privilege of being a leader.",
+            "Choices": [
+                {
+                    "Text": "Continue reading...",
+                    "Target": "DuoRulesheet3"
+                }
+            ]
+        },
+        "DuoRulesheet3": {
+            "Body": "And most importantly...DON'T BE A PUNK ASS CHEATER! WE WILL KNOW! WE ARE WATCHING YOU! Now go ahead and start the game. Good luck! :)",
+            "Choices": [
+                {
+                    "Text": "Go to the first question",
+                    "Target": "DuoQuestion1"
+                }
+            ]
+        },
+        "DuoQuestion1": {
+            "Body": "Question 1: What time is it?",
+            "Choices": [
+                {
+                    "Text": "A: The current time",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "B: Twelve in the Morning",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "C: 6:00 PM",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "D: Peanut Butter Jelly Time",
+                    "Target": "DuoQ1Correct"
+                },
+                {
+                    "Text": "Ask your friend for advice",
+                    "Target": "DuoAdvice"
+                }
+            ]
+        },
+
+        "DuoQuestion1NoHint": {
+            "Body": "Question 1: What time is it?",
+            "Choices": [
+                {
+                    "Text": "A: The current time",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "B: Twelve in the Morning",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "C: 6:00 PM",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "D: Peanut Butter Jelly Time",
+                    "Target": "DuoQ1Correct"
+                }
+            ]
+        },
+
+        "DuoQ1Correct": {
+            "Body": "CORRECT! There's always time for a good ol' PB&J. Get ready for the next question!",
+            "Choices": [
+                {
+                    "Text": "To the next question..",
+                    "Target": "DuoQuestion2"
+                }
+            ]
+
+        },
+
+        
+        "DuoIncorrect": {
+            "Body": "SORRY PAL, INCORRECT! ENJOY SLEEPING ON THE STREETS!!!!"
+        },
+
+        "DuoQuestion2": {
+            "Body": "Question 2: What's 9 + 10?",
+            "Choices": [
+                {
+                    "Text": "A: 19",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "B: 30",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "C: 21",
+                    "Target": "DuoQ2Correct"
+                },
+                {
+                    "Text": "D: 25",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "Ask your friend for advice",
+                    "Target": "DuoAdvice"
+                }
+            ]
+        },
+
+        "DuoQuestion2NoHint": {
+            "Body": "Question 2: What's 9 + 10?",
+            "Choices": [
+                {
+                    "Text": "A: 19",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "B: 30",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "C: 21",
+                    "Target": "DuoQ2Correct"
+                },
+                {
+                    "Text": "D: 25",
+                    "Target": "DuoIncorrect"
+                }
+            ]
+        },
+
+        "DuoQ2Correct": {
+            "Body": "CORRECT! Boy was that kid stupid!",
+            "Choices": [
+                {
+                    "Text": "To the next question..",
+                    "Target": "DuoQuestion3"
+                }
+            ]
+
+        },
+
+        "DuoQuestion3": {
+            "Body": "Question 3: How much of your base belongs to them?",
+            "Choices": [
+                {
+                    "Text": "A: A small amount",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "B: A moderate piece",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "C: All",
+                    "Target": "DuoQ3Correct"
+                },
+                {
+                    "Text": "D: A good portion",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "Ask your friend for advice",
+                    "Target": "DuoAdvice"
+                }
+            ]
+        },
+
+        "DuoQuestion3NoHint": {
+            "Body": "Question 3: How much of your base belongs to them?",
+            "Choices": [
+                {
+                    "Text": "A: A small amount",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "B: A moderate piece",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "C: All",
+                    "Target": "DuoQ3Correct"
+                },
+                {
+                    "Text": "D: A good portion",
+                    "Target": "DuoIncorrect"
+                }
+            ]
+        },
+
+        "DuoQ3Correct": {
+            "Body": "CORRECT! It's either all of the pie or throw it out the window!",
+            "Choices": [
+                {
+                    "Text": "To the next question..",
+                    "Target": "DuoQuestion4"
+                }
+            ]
+
+        },
+
+        "DuoQuestion4": {
+            "Body": "Question 4: Which one of these dessert items is the most deceiving",
+            "Choices": [
+                {
+                    "Text": "A: Devil's Food Cake",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "B: Pumpkin Pie",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "C: Glazed Donuts",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "D: Black Forest Cake",
+                    "Target": "DuoQ4Correct"
+                },
+                {
+                    "Text": "Ask your friend for advice",
+                    "Target": "DuoAdvice"
+                }
+            ]
+        },
+
+        "DuoQuestion4NoHint": {
+            "Body": "Question 4: Which one of these dessert items is the most deceiving",
+            "Choices": [
+                {
+                    "Text": "A: Devil's Food Cake",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "B: Pumpkin Pie",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "C: Glazed Donuts",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "D: Black Forest Cake",
+                    "Target": "DuoQ4Correct"
+                }
+
+            ]
+        },
+
+        "DuoQ4Correct": {
+            "Body": "CORRECT! Black Forests have skinwalkers that are known to be amazing liars. Don't trust the cake, it could be one of em!",
+            "Choices": [
+                {
+                    "Text": "To the next question..",
+                    "Target": "DuoQuestion5"
+                }
+            ]
+
+        },
+
+        "DuoQuestion5": {
+            "Body": "Question 5: Who is this man? (Picture of Channing Tatum)",
+            "Choices": [
+                {
+                    "Text": "A: Caine",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "B: Jeff",
+                    "Target": "DuoQ5Correct"
+                },
+                {
+                    "Text": "C: Conrad S. 'Duke' Hauser ",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "D: Magic Mike",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "Ask your friend for advice",
+                    "Target": "DuoAdvice"
+                }
+            ]
+        },
+
+        "DuoQuestion5NoHint": {
+            "Body": "Question 5: Who is this man? (Picture of Channing Tatum)",
+            "Choices": [
+                {
+                    "Text": "A: Caine",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "B: Jeff",
+                    "Target": "DuoQ5Correct"
+                },
+                {
+                    "Text": "C: Conrad S. 'Duke' Hauser ",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "D: Magic Mike",
+                    "Target": "DuoIncorrect"
+                }
+            ]
+        },
+
+        "DuoQ5Correct": {
+            "Body": "CORRECT! His name is Jeff!",
+            "Choices": [
+                {
+                    "Text": "To the next question..",
+                    "Target": "DuoQuestion6"
+                }
+            ]
+
+        },
+
+        "DuoQuestion6": {
+            "Body": "Question 6: Finish the word: snoo______usualisee",
+            "Choices": [
+                {
+                    "Text": "A: ringas",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "B: pingas",
+                    "Target": "DuoQ6Correct"
+                },
+                {
+                    "Text": "C: dingas",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "D: chingas",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "Ask your friend for advice",
+                    "Target": "DuoAdvice"
+                }
+            ]
+        },
+
+        "DuoQuestion6NoHint": {
+            "Body": "Question 6: Finish the word: snoo______usualisee",
+            "Choices": [
+                {
+                    "Text": "A: ringas",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "B: pingas",
+                    "Target": "DuoQ6Correct"
+                },
+                {
+                    "Text": "C: dingas",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "D: chingas",
+                    "Target": "DuoIncorrect"
+                }
+            ]
+        },
+
+        "DuoQ6Correct": {
+            "Body": "CORRECT! Pingas is a way of life not fit for all but some...and boy does it fit in them ( ͡° ͜ʖ ͡°)",
+            "Choices": [
+                {
+                    "Text": "To the next question..",
+                    "Target": "DuoQuestion7"
+                }
+            ]
+
+        },
+
+        "DuoQuestion7": {
+            "Body": "Final Question: What was Big Smoke's Order?",
+            "Choices": [
+                {
+                    "Text": "A: Two #7s, a #45 Large, a #6 w/ Extra Dip, a #9, two #55s, one with mayo and a large milkshake",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "B: Two #9s, a #9 Large, a #6 w/ Extra Dip, a #7, two #45s, one with cheese and a large soda",
+                    "Target": "DuoQ7Correct"
+                },
+                {
+                    "Text": "C: Two #9s, a #9 Large, a #6 w/ Extra Dip, a #7, two #45s, and a large soda",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "D: Two #9s, a #9 Large, a #6 w/ Extra Dip, a #7, two #45s, one with cheese and a McFlurry",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "Ask your friend for advice",
+                    "Target": "DuoAdvice"
+                }
+            ]
+        },
+
+        
+        "DuoQuestion7NoHint": {
+            "Body": "Final Question: What was Big Smoke's Order?",
+            "Choices": [
+                {
+                    "Text": "A: Two #7s, a #45 Large, a #6 w/ Extra Dip, a #9, two #55s, one with mayo and a large milkshake",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "B: Two #9s, a #9 Large, a #6 w/ Extra Dip, a #7, two #45s, one with cheese and a large soda",
+                    "Target": "DuoQ7Correct"
+                },
+                {
+                    "Text": "C: Two #9s, a #9 Large, a #6 w/ Extra Dip, a #7, two #45s, and a large soda",
+                    "Target": "DuoIncorrect"
+                },
+                {
+                    "Text": "D: Two #9s, a #9 Large, a #6 w/ Extra Dip, a #7, two #45s, one with cheese and a McFlurry",
+                    "Target": "DuoIncorrect"
+                }
+            ]
+        },
+
+        
+        "DuoQ7Correct": {
+            "Body": "CORRECT! If you can eat your food, while everyone else is losing theirs and blaming you, you straight, homie!",
+            "Choices": [
+                {
+                    "Text": "YOU WIN!",
+                    "Target": "DuoEpliogue1"
+                }
+            ]
+
+        },
+
+        "DuoEpilogue": {
+            "Body": "The phone rings and you answer. 'WOW! You actually made it! Not bad, not bad. Welp, as promised you'll get your money back real soon. Not immediately though as we froze your assets pretty good, so it'll need some time to thaw. You will get it back though, pinky promise :)'",
+            "Choices": [
+                {
+                    "Text": "I know a liar when I hear one, give me back my money NOW!",
+                    "Target": "DuoEpliogue2"
+                }
+            ]
+
+        },
+
+        "DuoEpilogue2": {
+            "Body": "'Hey, hey, calm down man! We're being serious here. Just give us a few business days and we'll have your assets thawed out like boneless chicken thighs.'",
+            "Choices": [
+                {
+                    "Text": "Grrr. Alright then. You have 2 days.",
+                    "Target": "DuoEpliogue3"
+                }
+            ]
+
+        },
+
+        "DuoEpilogue3": {
+            "Body": "'No problemo, jefe!' The hackers hang up. Your phone rings again, your friend.",
+            "Choices": [
+                {
+                    "Text": "Answer the call",
+                    "Target": "DuoEpliogue4"
+                }
+            ]
+
+        },
+
+        "DuoEpilogue4": {
+            "Body": "'Yo, the program pulled through, looks like you've been targeted by 14U6H, a quite infamous hacker group that stylizes their attacks to look like juvenile pranks. Obviously, the one guy we tracked isn't the entire organization but this gives us an opening. What's the call?'",
+            "Choices": [
+                {
+                    "Text": "Inform our men in the police department, they'll get it taken care of.",
+                    "Target": "RatEnding"
+                },
+                {
+                    "Text": "I'll head over there later today, I think a new opportunity just appeared.",
+                    "Target": "BlackmailEnding"
+                }
+            
+            ]
+
+        },
+
+         "RatEnding": {
+            "Body": "As you expected, the cops do a clean raid on the 14U6H hacker's apartment and neutralize the recently discovered threat. Your men will tell the age old story of how the hacker drew a gun on them while also forging evidence to back that story up. Although you prefer not to get your hands bloody, this will surely get the message out that you are not one to be trifled with."
+        },
+
+        "BlackmailEnding": {
+            "Body": "Who knew that the hacker you and your friend discovered would be a turncoat. Turns out he only joined 14U6H because it would net him some serious cash and as of late, the 'job position' was not paying well. With a 14U6H member part of your roster, you now have intel on the group's tactics. The new recruit has proven to be a loyal dog so far, but in case he tries to bite the hand that feeds him, you have plenty of dirt to keep his ass line. After all, it's ride or die and you demand absolute loyalty from your employees to complete your ascension to the half percent."
+        },
+
+
+        "DuoAdvice": {
+            "Body": "Gamble your chances with the program your friend gave you."
+        },
+        "Advice": {
+            "Body": "AdviceList",
+            "Choices": [
+                {
+                    "Text": "The Correct Answer for Q1 is: D",
+                    "Target": "DuoQuestion1NoHint"
+                },
+                {
+                    "Text": "The Correct Answer for Q2 is: C",
+                    "Target": "DuoQuestion2NoHint"
+                },
+                {
+                    "Text": "The Correct Answer for Q3 is: C",
+                    "Target": "DuoQuestion3NoHint"
+                },
+                {
+                    "Text": "The Correct Answer for Q4 is: C",
+                    "Target": "DuoQuestion4NoHint"
+                },
+                {
+                    "Text": "The Correct Answer for Q5 is: B",
+                    "Target": "DuoQuestion5NoHint"
+                },
+                {
+                    "Text": "The Correct Answer for Q6 is: B",
+                    "Target": "DuoQuestion6NoHint"
+                },
+                {
+                    "Text": "The Correct Answer for Q7 is: B",
+                    "Target": "DuoQuestion7NoHint"
+                }
+            ]
+        }
+
+    }
+
+}
